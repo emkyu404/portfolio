@@ -24,6 +24,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  exquisitis,
+  exquisitisvid,
+  alkavid,
+  umsivid,
+  omdvid,
+  statourvid,
+  hiredvid
 } from "../assets";
 
 export const navLinks = [
@@ -215,68 +222,148 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Alka",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "unreal",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "fps",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "multiplayer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C++",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    video: alkavid,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Exquisitis",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "platformer",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "puzzle",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C#",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: exquisitis,
+    video: exquisitisvid,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "One More Day",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "topdownshooter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "C#",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    video: omdvid,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "U.M.S.I.",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "towerdefense",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: umsivid,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Hired",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gamejam",
+        color: "green-text-gradient",
+      },
+      {
+        name: "counterinfiltration",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: hiredvid,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "StartourVR",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vr",
+        color: "green-text-gradient",
+      },
+      {
+        name: "oculus",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: statourvid,
+    source_code_link: "https://github.com/",
+  }
 ];
 
 export { services, technologies, experiences, educations, testimonials, projects };

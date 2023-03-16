@@ -35,6 +35,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import exquisitis from "./work/exquisitis.png"
+import exquisitisvid from "./work/exquisitis.mp4"
+
+import alkavid from "./work/alka.mp4"
+
+import umsivid from "./work/umsi.mp4"
+
+import omdvid from"./work/omd.mp4"
+
+import statourvid from "./work/statour.mp4"
+
+import hiredvid from "./work/hired.mp4"
+
 export {
   logo,
   backend,
@@ -68,5 +81,12 @@ export {
   gs,
   iut,
   uqac,
-  efrei
+  efrei,
+  exquisitis,
+  exquisitisvid,
+  alkavid,
+  umsivid,
+  omdvid,
+  statourvid,
+  hiredvid
 };
